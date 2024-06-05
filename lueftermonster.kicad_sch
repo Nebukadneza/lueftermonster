@@ -4289,12 +4289,6 @@
 		)
 	)
 	(junction
-		(at 82.55 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04073f16-6646-4ee3-96a3-e1268d1566af")
-	)
-	(junction
 		(at 90.17 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4307,7 +4301,7 @@
 		(uuid "07f3a5cd-531d-4b07-956f-780f2f2eea9b")
 	)
 	(junction
-		(at 48.26 27.94)
+		(at 46.99 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f01fa06-04d8-488f-84af-73356811c313")
@@ -4373,12 +4367,6 @@
 		(uuid "32474651-fb7c-47db-8361-7b619f89a7ab")
 	)
 	(junction
-		(at 82.55 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "357dd19f-79be-4264-9e09-cbffd3b6361b")
-	)
-	(junction
 		(at 209.55 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4433,7 +4421,7 @@
 		(uuid "557b7bd9-b7f5-4e56-91c6-af3db0d7d807")
 	)
 	(junction
-		(at 48.26 43.18)
+		(at 46.99 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55d7b923-c7ed-47e0-88db-a09768a5cc22")
@@ -4449,12 +4437,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e752409-c73c-40a5-961a-04c15d4fda1e")
-	)
-	(junction
-		(at 71.12 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "614d5dee-853d-4308-be20-000341e54812")
 	)
 	(junction
 		(at 247.65 121.92)
@@ -4487,13 +4469,19 @@
 		(uuid "6e6c9e09-ad60-4b57-a764-f7ba39e0a737")
 	)
 	(junction
+		(at 80.01 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71e1c509-cd49-4e5d-86e3-51f32bbe23ec")
+	)
+	(junction
 		(at 262.89 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b74da86-db1b-4687-a54a-0cbfab2ddbf9")
 	)
 	(junction
-		(at 58.42 43.18)
+		(at 57.15 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bb5b99a-9b3c-4c0b-9c29-11d57b75111f")
@@ -4583,6 +4571,12 @@
 		(uuid "a18c69d9-5c3f-438c-9d6a-e7624dfcc30b")
 	)
 	(junction
+		(at 67.31 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2876ce1-8bec-4159-bf96-ca82144a3e9b")
+	)
+	(junction
 		(at 167.64 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4649,6 +4643,12 @@
 		(uuid "c9378826-3887-4cfd-9af9-5fb67c9cb27e")
 	)
 	(junction
+		(at 67.31 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca8c53b0-9468-487e-8c2a-cf7b62057e5e")
+	)
+	(junction
 		(at 167.64 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4673,10 +4673,10 @@
 		(uuid "d350896e-aad4-417b-bdf2-b80e46dc0d8b")
 	)
 	(junction
-		(at 71.12 43.18)
+		(at 80.01 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e47a27e8-83f4-40f6-bed9-8a7b17a2a06a")
+		(uuid "d8d1ffca-e07d-44c8-8ea1-67731ebc787c")
 	)
 	(junction
 		(at 255.27 121.92)
@@ -4729,7 +4729,7 @@
 		(uuid "267ab160-00a1-44e4-a5e0-a4565b1585e1")
 	)
 	(no_connect
-		(at 35.56 35.56)
+		(at 34.29 35.56)
 		(uuid "4537a649-3609-42da-afad-54958e0eb37a")
 	)
 	(no_connect
@@ -4944,16 +4944,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 43.18) (xy 90.17 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c84648d-0b95-419a-bd3f-f0d247ce4b2b")
-	)
-	(wire
-		(pts
 			(xy 95.25 123.19) (xy 96.52 123.19)
 		)
 		(stroke
@@ -5134,16 +5124,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 38.1) (xy 71.12 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c64129b-aea7-4444-af42-2ddc24a05b69")
-	)
-	(wire
-		(pts
 			(xy 209.55 38.1) (xy 209.55 39.37)
 		)
 		(stroke
@@ -5234,7 +5214,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 35.56) (xy 58.42 36.83)
+			(xy 57.15 35.56) (xy 57.15 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5261,16 +5241,6 @@
 			(type default)
 		)
 		(uuid "26d89c2f-8782-4fb2-aa47-988dbe5507be")
-	)
-	(wire
-		(pts
-			(xy 82.55 27.94) (xy 82.55 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28950b26-4cff-4629-b973-841b329c4567")
 	)
 	(wire
 		(pts
@@ -5354,23 +5324,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 43.18) (xy 48.26 43.18)
+			(xy 36.83 43.18) (xy 46.99 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2c5e68cf-3567-4cab-9926-f68f44b4f773")
-	)
-	(wire
-		(pts
-			(xy 82.55 27.94) (xy 90.17 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c7a0786-3aca-468c-99b4-0de2588d76f7")
 	)
 	(wire
 		(pts
@@ -5451,16 +5411,6 @@
 			(type default)
 		)
 		(uuid "3271b2db-8531-4585-8049-f456911ec8e6")
-	)
-	(wire
-		(pts
-			(xy 80.01 27.94) (xy 82.55 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "328587af-5ffc-41a7-8a93-f7db14995b2d")
 	)
 	(wire
 		(pts
@@ -5554,6 +5504,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 27.94) (xy 80.01 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3959e6ed-d4ea-4d6e-8039-c3eeed57d851")
+	)
+	(wire
+		(pts
 			(xy 217.17 128.27) (xy 217.17 129.54)
 		)
 		(stroke
@@ -5601,16 +5561,6 @@
 			(type default)
 		)
 		(uuid "3cb5bcf0-e388-456f-ad38-de64604468a0")
-	)
-	(wire
-		(pts
-			(xy 71.12 43.18) (xy 74.93 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cca3600-a372-457e-a796-eaa4df3be213")
 	)
 	(wire
 		(pts
@@ -5681,16 +5631,6 @@
 			(type default)
 		)
 		(uuid "3f536376-9e01-45fd-b368-46334f29c6b0")
-	)
-	(wire
-		(pts
-			(xy 82.55 38.1) (xy 82.55 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "405b35ff-8e08-4069-99b6-93c2d973b37b")
 	)
 	(wire
 		(pts
@@ -5844,7 +5784,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 27.94) (xy 53.34 27.94)
+			(xy 46.99 27.94) (xy 52.07 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5911,6 +5851,16 @@
 			(type default)
 		)
 		(uuid "4efdbc34-2aac-4c77-8909-32076cb2507d")
+	)
+	(wire
+		(pts
+			(xy 80.01 38.1) (xy 80.01 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f08db4a-9c7c-43e8-aab1-7d7ae5b5c522")
 	)
 	(wire
 		(pts
@@ -6174,16 +6124,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 27.94) (xy 74.93 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "687b320a-c507-440a-848c-2a5881542bac")
-	)
-	(wire
-		(pts
 			(xy 127 162.56) (xy 124.46 162.56)
 		)
 		(stroke
@@ -6214,6 +6154,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 27.94) (xy 71.12 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab8a467-9490-4e2e-8da6-f8d0766c0c3a")
+	)
+	(wire
+		(pts
 			(xy 110.49 128.27) (xy 110.49 129.54)
 		)
 		(stroke
@@ -6221,6 +6171,16 @@
 			(type default)
 		)
 		(uuid "6b55ff9f-7f70-4345-895c-4ed29afb8c65")
+	)
+	(wire
+		(pts
+			(xy 80.01 27.94) (xy 90.17 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0e53e5-1c61-4ab0-9ff9-95813e160c63")
 	)
 	(wire
 		(pts
@@ -6234,7 +6194,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 27.94) (xy 71.12 27.94)
+			(xy 62.23 27.94) (xy 67.31 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6304,7 +6264,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 33.02) (xy 35.56 33.02)
+			(xy 36.83 33.02) (xy 34.29 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6444,7 +6404,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 41.91) (xy 58.42 43.18)
+			(xy 57.15 41.91) (xy 57.15 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6534,16 +6494,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 43.18) (xy 82.55 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84018796-f577-429f-9745-18610f2e22a7")
-	)
-	(wire
-		(pts
 			(xy 124.46 162.56) (xy 110.49 162.56)
 		)
 		(stroke
@@ -6621,6 +6571,16 @@
 			(type default)
 		)
 		(uuid "895c182f-e218-4171-a36e-220abcec44da")
+	)
+	(wire
+		(pts
+			(xy 67.31 27.94) (xy 67.31 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89712466-1390-427a-933b-8f6992c046e7")
 	)
 	(wire
 		(pts
@@ -6934,7 +6894,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 43.18) (xy 71.12 43.18)
+			(xy 57.15 43.18) (xy 67.31 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7174,7 +7134,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 27.94) (xy 48.26 31.75)
+			(xy 46.99 27.94) (xy 46.99 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7224,7 +7184,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 43.18) (xy 58.42 43.18)
+			(xy 46.99 43.18) (xy 57.15 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7234,7 +7194,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 27.94) (xy 38.1 33.02)
+			(xy 36.83 27.94) (xy 36.83 33.02)
 		)
 		(stroke
 			(width 0)
@@ -7261,6 +7221,16 @@
 			(type default)
 		)
 		(uuid "c49fd748-6fc6-46c5-b660-4ca534fa7715")
+	)
+	(wire
+		(pts
+			(xy 76.2 43.18) (xy 80.01 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5662732-bb3d-4c69-a4fd-23a832753f1c")
 	)
 	(wire
 		(pts
@@ -7364,7 +7334,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 38.1) (xy 38.1 43.18)
+			(xy 36.83 38.1) (xy 36.83 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7384,7 +7354,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 27.94) (xy 40.64 27.94)
+			(xy 36.83 27.94) (xy 39.37 27.94)
 		)
 		(stroke
 			(width 0)
@@ -7401,6 +7371,16 @@
 			(type default)
 		)
 		(uuid "cde7587e-58e2-4b2e-985c-73d2c963a935")
+	)
+	(wire
+		(pts
+			(xy 80.01 43.18) (xy 90.17 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce807d0e-494a-428e-ae30-6d625096ceec")
 	)
 	(wire
 		(pts
@@ -7494,6 +7474,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 43.18) (xy 71.12 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4fd345b-9133-4274-8514-395c1bcaf6d1")
+	)
+	(wire
+		(pts
 			(xy 177.8 30.48) (xy 168.91 30.48)
 		)
 		(stroke
@@ -7574,16 +7564,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 27.94) (xy 71.12 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da6cdd05-7874-43af-b1b7-0a6688b057e9")
-	)
-	(wire
-		(pts
 			(xy 227.33 97.79) (xy 233.68 97.79)
 		)
 		(stroke
@@ -7604,7 +7584,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 36.83) (xy 48.26 43.18)
+			(xy 46.99 36.83) (xy 46.99 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7684,6 +7664,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 38.1) (xy 67.31 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df637d0c-c670-42e5-93e7-fafeeb72bcdf")
+	)
+	(wire
+		(pts
 			(xy 201.93 128.27) (xy 201.93 129.54)
 		)
 		(stroke
@@ -7701,6 +7691,16 @@
 			(type default)
 		)
 		(uuid "e0f7ee79-c816-41c1-89a3-6abdceba692f")
+	)
+	(wire
+		(pts
+			(xy 76.2 27.94) (xy 80.01 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e116b4e3-2f74-4279-91f5-bc80e3a11a77")
 	)
 	(wire
 		(pts
@@ -7824,7 +7824,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 38.1) (xy 38.1 38.1)
+			(xy 34.29 38.1) (xy 36.83 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7914,7 +7914,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 27.94) (xy 48.26 27.94)
+			(xy 44.45 27.94) (xy 46.99 27.94)
 		)
 		(stroke
 			(width 0)
@@ -8014,7 +8014,7 @@
 	)
 	(text "12V, 2.5A max"
 		(exclude_from_sim no)
-		(at 27.94 22.86 0)
+		(at 26.67 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8952,6 +8952,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 175.26 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 175.26 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 175.26 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "92968efd-fa04-42bc-879c-a367fdca753e")
 		)
@@ -9023,6 +9050,33 @@
 			)
 		)
 		(property ":CSC" ""
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 116.84 74.93 0)
 			(effects
 				(font
@@ -9176,6 +9230,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 88.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 88.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 88.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1c3dfe6-16df-4c1a-8d5d-c194e5393c7d")
 		)
@@ -9258,7 +9339,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Small")
-		(at 48.26 34.29 270)
+		(at 46.99 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9266,7 +9347,7 @@
 		(dnp no)
 		(uuid "0cd5b339-1da6-465c-99a3-0c6b18a1630d")
 		(property "Reference" "D1"
-			(at 46.482 33.1216 90)
+			(at 45.212 33.1216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9275,7 +9356,7 @@
 			)
 		)
 		(property "Value" "12V"
-			(at 46.482 35.433 90)
+			(at 45.212 35.433 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9284,7 +9365,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 48.26 34.29 0)
+			(at 46.99 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9293,7 +9374,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303141030_MDD-Microdiode-Electronics-SMAJ12CA_C110042.pdf"
-			(at 48.26 34.29 0)
+			(at 46.99 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9302,7 +9383,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
-			(at 48.26 34.29 0)
+			(at 46.99 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9311,7 +9392,7 @@
 			)
 		)
 		(property "Manufacturer" "MDD(Microdiode Electronics)"
-			(at 48.26 34.29 0)
+			(at 46.99 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9320,7 +9401,7 @@
 			)
 		)
 		(property "MPN" "SMAJ12CA"
-			(at 48.26 34.29 0)
+			(at 46.99 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9329,7 +9410,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 48.26 34.29 0)
+			(at 46.99 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9338,7 +9419,7 @@
 			)
 		)
 		(property "Spec" ""
-			(at 48.26 34.29 0)
+			(at 46.99 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9347,7 +9428,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 48.26 34.29 0)
+			(at 46.99 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9356,7 +9437,7 @@
 			)
 		)
 		(property "LCSC" "C110042"
-			(at 48.26 34.29 90)
+			(at 46.99 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9365,7 +9446,7 @@
 			)
 		)
 		(property ":CSC" ""
-			(at 48.26 34.29 0)
+			(at 46.99 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9450,6 +9531,127 @@
 			(project "lueftermonster"
 				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 73.66 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1126a756-1d82-4b73-92f4-12f45440a405")
+		(property "Reference" "FB2"
+			(at 73.6981 47.8917 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120R @ 100MHz"
+			(at 73.6981 45.9707 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
+			(at 73.66 41.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdata/8801529331742/ENFA0091.pdf"
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "120 Ohms 1 Power Line Ferrite Bead 1206 (3216 Metric) 6A 9mOhm"
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BLM31KN121SN1L"
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Spec" ""
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C337884"
+			(at 73.66 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7e603b1-022f-471a-9e1f-08aad6d6b4a8")
+		)
+		(pin "2"
+			(uuid "fbb57096-af1b-44c9-ba3e-f936305c01a4")
+		)
+		(instances
+			(project "lueftermonster"
+				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
+					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -9666,109 +9868,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 77.47 43.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "166df570-5193-4290-825b-1e53cf6f7011")
-		(property "Reference" "FB2"
-			(at 77.47 46.863 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "30R @ 100MHz"
-			(at 77.47 49.1744 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 77.47 41.402 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 77.47 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 77.47 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BLM18KG300TN1D"
-			(at 77.47 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "490-5447-1-ND"
-			(at 77.47 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
-			(at 77.47 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ac334ce-884c-4713-8570-6f6120e917ea")
-		)
-		(pin "2"
-			(uuid "7f83a6a5-aa5e-47a9-bfd1-57bc342988af")
-		)
-		(instances
-			(project "lueftermonster"
-				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
-					(reference "FB2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 54.61 64.77 0)
 		(unit 1)
@@ -9831,7 +9930,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0805C106K4PACTU"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 54.61 64.77 0)
 			(effects
 				(font
@@ -9840,7 +9939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Murata Electronics"
 			(at 54.61 64.77 0)
 			(effects
 				(font
@@ -9850,6 +9949,15 @@
 			)
 		)
 		(property ":CSC" ""
+			(at 54.61 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C440198"
 			(at 54.61 64.77 0)
 			(effects
 				(font
@@ -9926,6 +10034,33 @@
 			)
 		)
 		(property ":CSC" ""
+			(at 175.26 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 175.26 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 175.26 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 175.26 146.05 0)
 			(effects
 				(font
@@ -10340,6 +10475,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 175.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 175.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 175.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7e3bc0c-e55d-48df-aec5-6b0bae106135")
 		)
@@ -10357,7 +10519,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:DMP3013SFV")
-		(at 58.42 30.48 90)
+		(at 57.15 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10366,7 +10528,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fd1cec4-249c-4c27-b3ef-551cb3b91ddc")
 		(property "Reference" "Q1"
-			(at 58.42 21.8905 90)
+			(at 57.15 21.8905 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10374,7 +10536,7 @@
 			)
 		)
 		(property "Value" "Q_PMOS_GSD"
-			(at 58.42 24.3148 90)
+			(at 57.15 24.3148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10382,7 +10544,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
-			(at 60.325 25.4 0)
+			(at 59.055 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10393,7 +10555,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912111437_Diodes-Incorporated-DMP4025SFG-13_C461090.pdf"
-			(at 62.23 25.4 0)
+			(at 60.96 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10403,7 +10565,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 30.48 0)
+			(at 57.15 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10412,7 +10574,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes Incorporated"
-			(at 58.42 30.48 0)
+			(at 57.15 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10421,7 +10583,7 @@
 			)
 		)
 		(property "MPN" "DMP4025SFG-13"
-			(at 58.42 30.48 0)
+			(at 57.15 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10430,7 +10592,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 58.42 30.48 0)
+			(at 57.15 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10439,7 +10601,7 @@
 			)
 		)
 		(property "Spec" ""
-			(at 58.42 30.48 0)
+			(at 57.15 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10448,7 +10610,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 58.42 30.48 0)
+			(at 57.15 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10457,7 +10619,7 @@
 			)
 		)
 		(property "LCSC" "C461090"
-			(at 58.42 30.48 90)
+			(at 57.15 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10497,26 +10659,27 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3008cc03-bc2a-45bc-b49e-10d0ce239049")
 		(property "Reference" "C7"
-			(at 200.4568 33.1216 0)
+			(at 195.7959 33.0841 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "4u7"
-			(at 200.4568 35.433 0)
+			(at 195.7959 35.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 198.12 34.29 0)
 			(effects
 				(font
@@ -10543,7 +10706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 198.12 34.29 0)
 			(effects
 				(font
@@ -10552,7 +10715,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1206B475K500NT"
 			(at 198.12 34.29 0)
 			(effects
 				(font
@@ -10597,6 +10760,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C29823"
+			(at 198.12 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "588d9a25-0bd3-4066-91a3-5ca9082865bb")
 		)
@@ -10607,6 +10779,127 @@
 			(project "lueftermonster"
 				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 73.66 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30220dfc-2a96-4919-98f4-140cef861de2")
+		(property "Reference" "FB1"
+			(at 73.6219 23.2283 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120R @ 100MHz"
+			(at 73.6219 25.1493 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
+			(at 73.66 29.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdata/8801529331742/ENFA0091.pdf"
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "120 Ohms 1 Power Line Ferrite Bead 1206 (3216 Metric) 6A 9mOhm"
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BLM31KN121SN1L"
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Spec" ""
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C337884"
+			(at 73.66 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a95ff9a3-d0f7-496a-b64a-831a166f26d8")
+		)
+		(pin "2"
+			(uuid "65fe6ff3-a1ba-4f3e-9167-f6ae7f79474c")
+		)
+		(instances
+			(project "lueftermonster"
+				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -10665,6 +10958,33 @@
 			)
 		)
 		(property ":CSC" ""
+			(at 175.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 175.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 175.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 175.26 125.73 0)
 			(effects
 				(font
@@ -11279,6 +11599,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "842d7f1b-e1c5-41d6-8238-47ea124fb178")
 		)
@@ -11413,6 +11760,33 @@
 			)
 		)
 		(property ":CSC" ""
+			(at 175.26 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 175.26 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 175.26 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 175.26 130.81 0)
 			(effects
 				(font
@@ -11768,6 +12142,85 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 80.01 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43a47cfc-d4e7-4ed7-9f8f-91ebfac0308f")
+		(property "Reference" "C3"
+			(at 82.3341 34.3542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 82.3341 36.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 80.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28233"
+			(at 80.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "985fee26-db10-47ed-a950-986adb6b5df0")
+		)
+		(pin "2"
+			(uuid "d432d232-719d-40f8-9cc5-02789b3066c2")
+		)
+		(instances
+			(project "lueftermonster"
+				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 209.55 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12085,7 +12538,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0805C106K4PACTU"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 45.72 64.77 0)
 			(effects
 				(font
@@ -12094,7 +12547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Murata Electronics"
 			(at 45.72 64.77 0)
 			(effects
 				(font
@@ -12104,6 +12557,15 @@
 			)
 		)
 		(property ":CSC" ""
+			(at 45.72 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C440198"
 			(at 45.72 64.77 0)
 			(effects
 				(font
@@ -12408,7 +12870,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0805C106K4PACTU"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 168.91 38.1 0)
 			(effects
 				(font
@@ -12417,7 +12879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Murata Electronics"
 			(at 168.91 38.1 0)
 			(effects
 				(font
@@ -12427,6 +12889,15 @@
 			)
 		)
 		(property ":CSC" ""
+			(at 168.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C440198"
 			(at 168.91 38.1 0)
 			(effects
 				(font
@@ -12570,6 +13041,33 @@
 			)
 		)
 		(property ":CSC" ""
+			(at 175.26 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 175.26 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 175.26 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 175.26 138.43 0)
 			(effects
 				(font
@@ -13458,6 +13956,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 124.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1001TCE"
+			(at 124.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 124.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14194049-5cdc-4b30-9052-56e395ab3ffb")
 		)
@@ -13526,6 +14051,33 @@
 			)
 		)
 		(property ":CSC" ""
+			(at 175.26 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 175.26 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 175.26 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 175.26 135.89 0)
 			(effects
 				(font
@@ -13728,6 +14280,33 @@
 			)
 		)
 		(property ":CSC" ""
+			(at 124.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 124.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1001TCE"
+			(at 124.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 124.46 91.44 0)
 			(effects
 				(font
@@ -14311,6 +14890,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 175.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 175.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 175.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af939d1f-01fb-4c64-882d-06b17ffc081e")
 		)
@@ -14454,6 +15060,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 175.26 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 175.26 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 175.26 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d04f0fd-52d8-4838-94f1-2c4e44f29aeb")
 		)
@@ -14464,6 +15097,85 @@
 			(project "lueftermonster"
 				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 67.31 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7743c1bb-74c6-4f41-b496-ab952b8bf357")
+		(property "Reference" "C1"
+			(at 69.6341 34.3542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 69.6341 36.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 67.31 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28233"
+			(at 67.31 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be5bde5e-0b1e-4260-ac43-5b8ea57d8977")
+		)
+		(pin "2"
+			(uuid "d3473661-a00a-448c-8655-2a71bd74557e")
+		)
+		(instances
+			(project "lueftermonster"
+				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -14496,7 +15208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 102.87 35.56 0)
 			(effects
 				(font
@@ -14523,7 +15235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 102.87 35.56 0)
 			(effects
 				(font
@@ -14532,7 +15244,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1206B475K500NT"
 			(at 102.87 35.56 0)
 			(effects
 				(font
@@ -14577,6 +15289,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C29823"
+			(at 102.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3135494-7151-4f2f-acc6-f4c0e2031fb2")
 		)
@@ -14587,127 +15308,6 @@
 			(project "lueftermonster"
 				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 77.47 27.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77701163-9626-432f-8abc-0c4957e9613f")
-		(property "Reference" "FB1"
-			(at 77.47 21.9202 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "30R @ 100MHz"
-			(at 77.47 24.2316 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 77.47 26.162 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 77.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 77.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BLM18KG300TN1D"
-			(at 77.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "490-5447-1-ND"
-			(at 77.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Spec" ""
-			(at 77.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 77.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
-			(at 77.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a5eb2d1f-a807-440a-bcf7-bc4385ef7282")
-		)
-		(pin "1"
-			(uuid "69ea3ba4-6d32-4ea1-86b4-4201f525690e")
-		)
-		(instances
-			(project "lueftermonster"
-				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
-					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -15826,7 +16426,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 58.42 39.37 0)
+		(at 57.15 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15835,7 +16435,7 @@
 		(fields_autoplaced yes)
 		(uuid "88810892-5bda-4237-b3e4-d3756b9eb257")
 		(property "Reference" "R1"
-			(at 59.9186 38.1578 0)
+			(at 58.6486 38.1578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15844,7 +16444,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 59.9186 40.5821 0)
+			(at 58.6486 40.5821 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15853,7 +16453,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 58.42 39.37 0)
+			(at 57.15 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15862,7 +16462,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 39.37 0)
+			(at 57.15 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15871,7 +16471,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 39.37 0)
+			(at 57.15 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15880,7 +16480,34 @@
 			)
 		)
 		(property ":CSC" ""
-			(at 58.42 39.37 0)
+			(at 57.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 57.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 57.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 57.15 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16071,7 +16698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Diode_SMD:D_SOD-123F"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--B5819W-SL_C8598.pdf"
 			(at 147.32 34.29 90)
 			(effects
 				(font
@@ -16089,7 +16716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SMC Diode Solutions"
+		(property "Manufacturer" "Jiangsu Changjing Electronics Technology Co., Ltd."
 			(at 147.32 34.29 0)
 			(effects
 				(font
@@ -16098,7 +16725,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DSS15UTR"
+		(property "MPN" "B5819W SL"
 			(at 147.32 34.29 0)
 			(effects
 				(font
@@ -16107,7 +16734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "1655-1928-1-ND"
+		(property "Digikey" ""
 			(at 147.32 34.29 0)
 			(effects
 				(font
@@ -16116,8 +16743,26 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
+		(property "Spec" ""
 			(at 147.32 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 147.32 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8598"
+			(at 147.32 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16281,6 +16926,33 @@
 			)
 		)
 		(property ":CSC" ""
+			(at 124.46 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 124.46 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1001TCE"
+			(at 124.46 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 124.46 158.75 0)
 			(effects
 				(font
@@ -16670,7 +17342,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0805C106K4PACTU"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 220.98 34.29 0)
 			(effects
 				(font
@@ -16679,7 +17351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Murata Electronics"
 			(at 220.98 34.29 0)
 			(effects
 				(font
@@ -16689,6 +17361,15 @@
 			)
 		)
 		(property ":CSC" ""
+			(at 220.98 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C440198"
 			(at 220.98 34.29 0)
 			(effects
 				(font
@@ -17058,6 +17739,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 175.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 175.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 175.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "554b0fcf-ac4b-48d6-9336-bb0129d0b1f8")
 		)
@@ -17219,7 +17927,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
-		(at 43.18 27.94 0)
+		(at 41.91 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17228,7 +17936,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa8e0d73-b56e-43e4-8208-fd67a073541b")
 		(property "Reference" "F1"
-			(at 43.18 23.4145 0)
+			(at 41.91 23.4145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17236,7 +17944,7 @@
 			)
 		)
 		(property "Value" "Holder"
-			(at 43.18 25.8388 0)
+			(at 41.91 25.8388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17244,7 +17952,7 @@
 			)
 		)
 		(property "Footprint" "local:XFCN_PTF-77"
-			(at 43.18 27.94 0)
+			(at 41.91 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17253,7 +17961,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 27.94 0)
+			(at 41.91 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17262,7 +17970,7 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
-			(at 43.18 27.94 0)
+			(at 41.91 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17271,7 +17979,7 @@
 			)
 		)
 		(property "Manufacturer" "XFCN"
-			(at 43.18 27.94 0)
+			(at 41.91 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17280,7 +17988,7 @@
 			)
 		)
 		(property "MPN" "PTF-77"
-			(at 43.18 27.94 0)
+			(at 41.91 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17289,7 +17997,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 43.18 27.94 0)
+			(at 41.91 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17298,7 +18006,7 @@
 			)
 		)
 		(property "Spec" ""
-			(at 43.18 27.94 0)
+			(at 41.91 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17307,7 +18015,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 43.18 27.94 0)
+			(at 41.91 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17316,7 +18024,7 @@
 			)
 		)
 		(property "LCSC" "C717030"
-			(at 43.18 27.94 0)
+			(at 41.91 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17325,7 +18033,7 @@
 			)
 		)
 		(property ":CSC" ""
-			(at 43.18 27.94 0)
+			(at 41.91 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17739,84 +18447,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 71.12 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "b9135c46-32ee-4574-8119-cf3d678e3950")
-		(property "Reference" "C1"
-			(at 68.7832 34.3916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TBD"
-			(at 68.7832 36.703 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 71.12 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
-			(at 71.12 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30c630ba-18cc-43d7-9f02-0b13dc8d0544")
-		)
-		(pin "2"
-			(uuid "34ace37d-6c22-4265-88bd-2884337460cd")
-		)
-		(instances
-			(project "lueftermonster"
-				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 115.57 33.02 270)
 		(unit 1)
@@ -17877,6 +18507,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 115.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 115.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 115.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0819ce7b-f4a2-43c0-950e-8e66ea85ff73")
 		)
@@ -17887,84 +18544,6 @@
 			(project "lueftermonster"
 				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 82.55 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "ba59b330-6350-43ee-8bb8-c547514b26c8")
-		(property "Reference" "C3"
-			(at 80.2132 34.3916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TBD"
-			(at 80.2132 36.703 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 82.55 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
-			(at 82.55 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30500dd8-29ca-4deb-85d0-d50056278166")
-		)
-		(pin "2"
-			(uuid "c7f70a61-c266-45ab-b96f-4dd2640cba9f")
-		)
-		(instances
-			(project "lueftermonster"
-				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -18835,6 +19414,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 175.26 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 175.26 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 175.26 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d139225-71f6-4e2d-9cf4-6652bd959549")
 		)
@@ -19219,6 +19825,33 @@
 			)
 		)
 		(property ":CSC" ""
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 106.68 74.93 0)
 			(effects
 				(font
@@ -19645,6 +20278,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 175.26 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 175.26 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 175.26 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "905598fb-e8ad-4f61-96bc-e62f6c8a1624")
 		)
@@ -19863,7 +20523,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack_Switch")
-		(at 27.94 35.56 0)
+		(at 26.67 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19872,7 +20532,7 @@
 		(fields_autoplaced yes)
 		(uuid "df289de3-2b63-478c-98ee-dae03a7cdfe6")
 		(property "Reference" "J1"
-			(at 27.94 27.6055 0)
+			(at 26.67 27.6055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19880,7 +20540,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack"
-			(at 27.94 30.0298 0)
+			(at 26.67 30.0298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19888,7 +20548,7 @@
 			)
 		)
 		(property "Footprint" "local:XUNPU_DC-005-A200"
-			(at 29.21 36.576 0)
+			(at 27.94 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19897,7 +20557,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 36.576 0)
+			(at 27.94 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19906,7 +20566,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with an internal switch"
-			(at 27.94 35.56 0)
+			(at 26.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19915,7 +20575,7 @@
 			)
 		)
 		(property "Manufacturer" "XUNPU"
-			(at 27.94 35.56 0)
+			(at 26.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19924,7 +20584,7 @@
 			)
 		)
 		(property "MPN" "DC-005-A200"
-			(at 27.94 35.56 0)
+			(at 26.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19933,7 +20593,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 27.94 35.56 0)
+			(at 26.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19942,7 +20602,7 @@
 			)
 		)
 		(property "Spec" ""
-			(at 27.94 35.56 0)
+			(at 26.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19951,7 +20611,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 27.94 35.56 0)
+			(at 26.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19960,7 +20620,7 @@
 			)
 		)
 		(property "LCSC" "C720557"
-			(at 27.94 35.56 0)
+			(at 26.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19969,7 +20629,7 @@
 			)
 		)
 		(property ":CSC" ""
-			(at 27.94 35.56 0)
+			(at 26.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20051,6 +20711,33 @@
 			)
 		)
 		(property ":CSC" ""
+			(at 124.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 124.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1001TCE"
+			(at 124.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 124.46 113.03 0)
 			(effects
 				(font
@@ -21135,6 +21822,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 175.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 175.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 175.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0b7dc16-7830-4e40-9162-3a137e2b8682")
 		)
@@ -21270,6 +21984,33 @@
 			)
 		)
 		(property ":CSC" ""
+			(at 175.26 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 175.26 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 175.26 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 175.26 158.75 0)
 			(effects
 				(font
