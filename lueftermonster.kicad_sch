@@ -8943,15 +8943,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 175.26 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C25744"
 			(at 175.26 156.21 0)
 			(effects
@@ -9041,15 +9032,6 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 116.84 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 116.84 74.93 0)
 			(effects
 				(font
@@ -9213,15 +9195,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 88.9 104.14 0)
 			(effects
 				(font
@@ -9438,15 +9411,6 @@
 		)
 		(property "LCSC" "C110042"
 			(at 46.99 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
-			(at 46.99 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9778,15 +9742,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 157.48 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6175b6bc-82e5-432f-ab0a-688458ef1f96")
 		)
@@ -9948,15 +9903,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 54.61 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C440198"
 			(at 54.61 64.77 0)
 			(effects
@@ -10025,15 +9971,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 175.26 146.05 0)
 			(effects
 				(font
@@ -10466,15 +10403,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 175.26 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C25744"
 			(at 175.26 153.67 0)
 			(effects
@@ -10751,15 +10679,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 198.12 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C29823"
 			(at 198.12 34.29 0)
 			(effects
@@ -10957,15 +10876,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 175.26 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C25744"
 			(at 175.26 125.73 0)
 			(effects
@@ -11128,15 +11038,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 180.34 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "87725f50-89da-419d-9cba-f388c078d74d")
 		)
@@ -11278,15 +11179,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 209.55 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "f631da75-8694-4272-84d7-1ef44c647e5d")
 		)
@@ -11355,15 +11247,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 63.5 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 63.5 64.77 0)
 			(effects
 				(font
@@ -11508,15 +11391,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 267.97 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "7a561322-fba9-41a8-96e4-5bac9849445e")
 		)
@@ -11582,15 +11456,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 175.26 128.27 0)
 			(effects
 				(font
@@ -11751,15 +11616,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 175.26 130.81 0)
 			(effects
 				(font
@@ -12318,15 +12174,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 209.55 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0864c79b-560f-4787-a6ed-b1f7306e7054")
 		)
@@ -12556,15 +12403,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 45.72 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C440198"
 			(at 45.72 64.77 0)
 			(effects
@@ -12636,15 +12474,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 238.76 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 238.76 66.04 0)
 			(effects
 				(font
@@ -12888,15 +12717,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 168.91 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C440198"
 			(at 168.91 38.1 0)
 			(effects
@@ -13032,15 +12852,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 175.26 138.43 0)
 			(effects
 				(font
@@ -13534,15 +13345,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 90.17 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "8d160693-bc85-45d0-bdcd-8682624216c6")
 		)
@@ -13603,15 +13405,6 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 99.06 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 99.06 123.19 0)
 			(effects
 				(font
@@ -13726,15 +13519,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 224.79 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 224.79 148.59 0)
 			(effects
 				(font
@@ -13947,15 +13731,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 124.46 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C11702"
 			(at 124.46 135.89 0)
 			(effects
@@ -14042,15 +13817,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 175.26 135.89 0)
 			(effects
 				(font
@@ -14200,15 +13966,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 255.27 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "06754bcd-a572-4030-a0b1-d718fb44d077")
 		)
@@ -14271,15 +14028,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 124.46 91.44 0)
 			(effects
 				(font
@@ -14385,15 +14133,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 238.76 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "a898c3f7-b573-4c7d-adea-f1f6801c2dcc")
 		)
@@ -14462,15 +14201,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 209.55 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 209.55 66.04 0)
 			(effects
 				(font
@@ -14664,15 +14394,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 232.41 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2a78770d-83a1-4644-81c6-235b0204f149")
 		)
@@ -14732,15 +14453,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 143.51 27.94 0)
 			(effects
 				(font
@@ -14873,15 +14585,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 175.26 148.59 0)
 			(effects
 				(font
@@ -15043,15 +14746,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 175.26 151.13 0)
 			(effects
 				(font
@@ -15280,15 +14974,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 102.87 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C29823"
 			(at 102.87 35.56 0)
 			(effects
@@ -15368,15 +15053,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 267.97 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "be0f6775-389a-4b1c-906b-7e8c5eb0dd71")
 		)
@@ -15445,15 +15121,6 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 107.95 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 107.95 146.05 0)
 			(effects
 				(font
@@ -15627,15 +15294,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 180.34 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "d216e42b-852b-43e2-a4d6-bc7f8c1a874c")
 		)
@@ -15756,15 +15414,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 232.41 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0ed9e131-629f-4f44-8a41-a0201ae56a78")
 		)
@@ -15851,15 +15500,6 @@
 			)
 		)
 		(property "Digikey" "587-3443-1-ND"
-			(at 152.4 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 152.4 30.48 0)
 			(effects
 				(font
@@ -15974,15 +15614,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 217.17 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 217.17 125.73 0)
 			(effects
 				(font
@@ -16171,15 +15802,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 270.51 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "924c4e65-5b20-4206-9c3b-4588c365b10e")
 		)
@@ -16242,15 +15864,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 209.55 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 209.55 77.47 0)
 			(effects
 				(font
@@ -16325,15 +15938,6 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 99.06 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 99.06 100.33 0)
 			(effects
 				(font
@@ -16471,15 +16075,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 57.15 39.37 0)
 			(effects
 				(font
@@ -16840,15 +16435,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 267.97 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "a7959841-4db1-483e-abbd-2755a27c2ab1")
 		)
@@ -16917,15 +16503,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 124.46 158.75 0)
 			(effects
 				(font
@@ -17023,15 +16600,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 238.76 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 238.76 100.33 0)
 			(effects
 				(font
@@ -17175,15 +16743,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 180.34 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 180.34 100.33 0)
 			(effects
 				(font
@@ -17360,15 +16919,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 220.98 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C440198"
 			(at 220.98 34.29 0)
 			(effects
@@ -17440,15 +16990,6 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 107.95 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 107.95 123.19 0)
 			(effects
 				(font
@@ -17549,15 +17090,6 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 107.95 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 107.95 168.91 0)
 			(effects
 				(font
@@ -17730,15 +17262,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 175.26 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C25744"
 			(at 175.26 133.35 0)
 			(effects
@@ -17826,15 +17349,6 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 99.06 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 99.06 168.91 0)
 			(effects
 				(font
@@ -18024,15 +17538,6 @@
 			)
 		)
 		(property "LCSC" "C717030"
-			(at 41.91 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 41.91 27.94 0)
 			(effects
 				(font
@@ -18355,15 +17860,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 240.03 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6344eae3-4380-49c2-8c17-f3fa656e9570")
 		)
@@ -18490,15 +17986,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 115.57 33.02 0)
 			(effects
 				(font
@@ -18648,15 +18135,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 217.17 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "00e98bb2-8169-4d63-9472-14f47f8f3b00")
 		)
@@ -18792,15 +18270,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 209.55 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "c76add49-c2a2-4afb-9479-6780e4446397")
 		)
@@ -18869,15 +18338,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 238.76 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 238.76 88.9 0)
 			(effects
 				(font
@@ -19006,15 +18466,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 201.93 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4b5bafc7-8a17-4c1f-907b-4d2e9f79e223")
 		)
@@ -19129,15 +18580,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 262.89 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8425b9a6-ad36-4a50-a6a2-8d36277014d2")
 		)
@@ -19243,15 +18685,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 34.29 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 34.29 172.72 0)
 			(effects
 				(font
@@ -19405,15 +18838,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 175.26 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C25744"
 			(at 175.26 140.97 0)
 			(effects
@@ -19547,15 +18971,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 224.79 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 224.79 125.73 0)
 			(effects
 				(font
@@ -19745,15 +19160,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 209.55 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "9068b66c-3152-43bb-a61c-07b38e0c3436")
 		)
@@ -19816,15 +19222,6 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 106.68 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 106.68 74.93 0)
 			(effects
 				(font
@@ -20126,15 +19523,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 157.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "587b0511-b94a-4519-bf17-be15eaa4d457")
 		)
@@ -20261,15 +19649,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 175.26 143.51 0)
 			(effects
 				(font
@@ -20628,15 +20007,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 26.67 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "c18fca8d-ac43-4467-a101-739b2c0ab652")
 		)
@@ -20702,15 +20072,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 124.46 113.03 0)
 			(effects
 				(font
@@ -20919,15 +20280,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 201.93 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 201.93 148.59 0)
 			(effects
 				(font
@@ -21177,15 +20529,6 @@
 			)
 		)
 		(property "LCSC" "C20917"
-			(at 107.95 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 107.95 100.33 0)
 			(effects
 				(font
@@ -21508,15 +20851,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 247.65 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "05f7980f-137d-41d5-b0a3-14170e0ec0a9")
 		)
@@ -21579,15 +20913,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 180.34 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 180.34 77.47 0)
 			(effects
 				(font
@@ -21662,15 +20987,6 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 99.06 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 99.06 146.05 0)
 			(effects
 				(font
@@ -21805,15 +21121,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 175.26 123.19 0)
 			(effects
 				(font
@@ -21983,15 +21290,6 @@
 				(hide yes)
 			)
 		)
-		(property ":CSC" ""
-			(at 175.26 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C25744"
 			(at 175.26 158.75 0)
 			(effects
@@ -22081,15 +21379,6 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-D0WD-V3 SoC, without PSRAM, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
-			(at 38.1 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property ":CSC" ""
 			(at 38.1 113.03 0)
 			(effects
 				(font
