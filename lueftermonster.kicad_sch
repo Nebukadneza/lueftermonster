@@ -9742,6 +9742,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C26956"
+			(at 157.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1582TCE"
+			(at 157.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 157.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6175b6bc-82e5-432f-ab0a-688458ef1f96")
 		)
@@ -11038,6 +11065,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C240840"
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "470531000"
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "87725f50-89da-419d-9cba-f388c078d74d")
 		)
@@ -11171,6 +11225,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 209.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C240840"
+			(at 209.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "470531000"
+			(at 209.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
 			(at 209.55 88.9 0)
 			(effects
 				(font
@@ -11383,6 +11464,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 267.97 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C240840"
+			(at 267.97 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "470531000"
+			(at 267.97 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
 			(at 267.97 77.47 0)
 			(effects
 				(font
@@ -12129,7 +12237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "0805B105K500NT"
 			(at 209.55 148.59 0)
 			(effects
 				(font
@@ -12138,7 +12246,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 209.55 148.59 0)
 			(effects
 				(font
@@ -12166,6 +12274,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 209.55 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C215803"
 			(at 209.55 148.59 0)
 			(effects
 				(font
@@ -12474,6 +12591,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 238.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C240840"
+			(at 238.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "470531000"
+			(at 238.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
 			(at 238.76 66.04 0)
 			(effects
 				(font
@@ -13413,6 +13557,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25086"
+			(at 99.06 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF100KTCE"
+			(at 99.06 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 99.06 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a500e3c-8f6c-449e-9353-b0d3d9ecbc37")
 		)
@@ -13482,7 +13653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "0805B105K500NT"
 			(at 224.79 148.59 0)
 			(effects
 				(font
@@ -13491,7 +13662,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 224.79 148.59 0)
 			(effects
 				(font
@@ -13519,6 +13690,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 224.79 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C215803"
 			(at 224.79 148.59 0)
 			(effects
 				(font
@@ -13921,7 +14101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "0805B105K500NT"
 			(at 255.27 125.73 0)
 			(effects
 				(font
@@ -13930,7 +14110,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 255.27 125.73 0)
 			(effects
 				(font
@@ -13958,6 +14138,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 255.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C215803"
 			(at 255.27 125.73 0)
 			(effects
 				(font
@@ -14133,6 +14322,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C240840"
+			(at 238.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "470531000"
+			(at 238.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
+			(at 238.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "a898c3f7-b573-4c7d-adea-f1f6801c2dcc")
 		)
@@ -14201,6 +14417,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 209.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C240840"
+			(at 209.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "470531000"
+			(at 209.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
 			(at 209.55 66.04 0)
 			(effects
 				(font
@@ -14349,7 +14592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "0805B105K500NT"
 			(at 232.41 148.59 0)
 			(effects
 				(font
@@ -14358,7 +14601,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 232.41 148.59 0)
 			(effects
 				(font
@@ -14386,6 +14629,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 232.41 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C215803"
 			(at 232.41 148.59 0)
 			(effects
 				(font
@@ -15053,6 +15305,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C240840"
+			(at 267.97 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "470531000"
+			(at 267.97 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
+			(at 267.97 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "be0f6775-389a-4b1c-906b-7e8c5eb0dd71")
 		)
@@ -15294,6 +15573,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C240840"
+			(at 180.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "470531000"
+			(at 180.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
+			(at 180.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "d216e42b-852b-43e2-a4d6-bc7f8c1a874c")
 		)
@@ -15369,7 +15675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "0805B105K500NT"
 			(at 232.41 125.73 0)
 			(effects
 				(font
@@ -15378,7 +15684,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 232.41 125.73 0)
 			(effects
 				(font
@@ -15406,6 +15712,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 232.41 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C215803"
 			(at 232.41 125.73 0)
 			(effects
 				(font
@@ -15577,7 +15892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "0805B105K500NT"
 			(at 217.17 125.73 0)
 			(effects
 				(font
@@ -15586,7 +15901,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 217.17 125.73 0)
 			(effects
 				(font
@@ -15614,6 +15929,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 217.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C215803"
 			(at 217.17 125.73 0)
 			(effects
 				(font
@@ -15757,7 +16081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "0805B105K500NT"
 			(at 270.51 125.73 0)
 			(effects
 				(font
@@ -15766,7 +16090,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 270.51 125.73 0)
 			(effects
 				(font
@@ -15794,6 +16118,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 270.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C215803"
 			(at 270.51 125.73 0)
 			(effects
 				(font
@@ -15872,6 +16205,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C240840"
+			(at 209.55 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "470531000"
+			(at 209.55 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
+			(at 209.55 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "f785fa56-552f-4376-9b0d-469048b662ae")
 		)
@@ -15938,6 +16298,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 99.06 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25086"
+			(at 99.06 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF100KTCE"
+			(at 99.06 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 99.06 100.33 0)
 			(effects
 				(font
@@ -16435,6 +16822,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C240840"
+			(at 267.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "470531000"
+			(at 267.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
+			(at 267.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "a7959841-4db1-483e-abbd-2755a27c2ab1")
 		)
@@ -16608,6 +17022,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C240840"
+			(at 238.76 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "470531000"
+			(at 238.76 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
+			(at 238.76 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "3798a696-fc28-42d8-81b4-47bbeb6c13f1")
 		)
@@ -16743,6 +17184,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 180.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C240840"
+			(at 180.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "470531000"
+			(at 180.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
 			(at 180.34 100.33 0)
 			(effects
 				(font
@@ -17357,6 +17825,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25086"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF100KTCE"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "158ac39f-144f-4cc0-b328-fd1fa818e2e8")
 		)
@@ -17815,7 +18310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "0805B105K500NT"
 			(at 240.03 125.73 0)
 			(effects
 				(font
@@ -17824,7 +18319,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 240.03 125.73 0)
 			(effects
 				(font
@@ -17852,6 +18347,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 240.03 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C215803"
 			(at 240.03 125.73 0)
 			(effects
 				(font
@@ -18090,7 +18594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "0805B105K500NT"
 			(at 217.17 148.59 0)
 			(effects
 				(font
@@ -18099,7 +18603,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 217.17 148.59 0)
 			(effects
 				(font
@@ -18127,6 +18631,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 217.17 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C215803"
 			(at 217.17 148.59 0)
 			(effects
 				(font
@@ -18270,6 +18783,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C240840"
+			(at 209.55 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "470531000"
+			(at 209.55 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
+			(at 209.55 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "c76add49-c2a2-4afb-9479-6780e4446397")
 		)
@@ -18338,6 +18878,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 238.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C240840"
+			(at 238.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "470531000"
+			(at 238.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
 			(at 238.76 88.9 0)
 			(effects
 				(font
@@ -18421,7 +18988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "0805B105K500NT"
 			(at 201.93 125.73 0)
 			(effects
 				(font
@@ -18430,7 +18997,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 201.93 125.73 0)
 			(effects
 				(font
@@ -18458,6 +19025,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 201.93 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C215803"
 			(at 201.93 125.73 0)
 			(effects
 				(font
@@ -18535,7 +19111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "0805B105K500NT"
 			(at 262.89 125.73 0)
 			(effects
 				(font
@@ -18544,7 +19120,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 262.89 125.73 0)
 			(effects
 				(font
@@ -18572,6 +19148,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 262.89 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C215803"
 			(at 262.89 125.73 0)
 			(effects
 				(font
@@ -18934,7 +19519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "0805B105K500NT"
 			(at 224.79 125.73 0)
 			(effects
 				(font
@@ -18943,7 +19528,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 224.79 125.73 0)
 			(effects
 				(font
@@ -18971,6 +19556,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 224.79 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C215803"
 			(at 224.79 125.73 0)
 			(effects
 				(font
@@ -19115,7 +19709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "0805B105K500NT"
 			(at 209.55 125.73 0)
 			(effects
 				(font
@@ -19124,7 +19718,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 209.55 125.73 0)
 			(effects
 				(font
@@ -19152,6 +19746,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 209.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C215803"
 			(at 209.55 125.73 0)
 			(effects
 				(font
@@ -19515,6 +20118,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 157.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25897"
+			(at 157.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF4992TCE"
+			(at 157.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 157.48 34.29 0)
 			(effects
 				(font
@@ -20243,7 +20873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "0805B105K500NT"
 			(at 201.93 148.59 0)
 			(effects
 				(font
@@ -20252,7 +20882,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 201.93 148.59 0)
 			(effects
 				(font
@@ -20280,6 +20910,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 201.93 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C215803"
 			(at 201.93 148.59 0)
 			(effects
 				(font
@@ -20806,7 +21445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "0805B105K500NT"
 			(at 247.65 125.73 0)
 			(effects
 				(font
@@ -20815,7 +21454,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 247.65 125.73 0)
 			(effects
 				(font
@@ -20843,6 +21482,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 247.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C215803"
 			(at 247.65 125.73 0)
 			(effects
 				(font
@@ -20921,6 +21569,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C240840"
+			(at 180.34 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "470531000"
+			(at 180.34 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
+			(at 180.34 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "a7f199ca-e94c-4874-832a-35105911aefe")
 		)
@@ -20987,6 +21662,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 99.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25086"
+			(at 99.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF100KTCE"
+			(at 99.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 99.06 146.05 0)
 			(effects
 				(font
