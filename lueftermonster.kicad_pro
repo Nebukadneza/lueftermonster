@@ -595,12 +595,6 @@
           "label": "LCSC",
           "name": "LCSC",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": ":CSC",
-          "name": ":CSC",
-          "show": false
         }
       ],
       "filter_string": "",
