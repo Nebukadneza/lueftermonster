@@ -11289,7 +11289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 180.34 88.9 0)
 			(effects
 				(font
@@ -11316,7 +11316,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C240840"
+		(property "LCSC" "C780062"
 			(at 180.34 88.9 0)
 			(effects
 				(font
@@ -11325,7 +11325,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "470531000"
+		(property "MPN" "X6511WVS-04H-C60D48R1"
 			(at 180.34 88.9 0)
 			(effects
 				(font
@@ -11334,7 +11334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MOLEX"
+		(property "Manufacturer" "XKB Connection"
 			(at 180.34 88.9 0)
 			(effects
 				(font
@@ -11457,7 +11457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 209.55 88.9 0)
 			(effects
 				(font
@@ -11484,7 +11484,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C240840"
+		(property "LCSC" "C780062"
 			(at 209.55 88.9 0)
 			(effects
 				(font
@@ -11493,7 +11493,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "470531000"
+		(property "MPN" "X6511WVS-04H-C60D48R1"
 			(at 209.55 88.9 0)
 			(effects
 				(font
@@ -11502,7 +11502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MOLEX"
+		(property "Manufacturer" "XKB Connection"
 			(at 209.55 88.9 0)
 			(effects
 				(font
@@ -11696,7 +11696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 267.97 77.47 0)
 			(effects
 				(font
@@ -11723,7 +11723,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C240840"
+		(property "LCSC" "C780062"
 			(at 267.97 77.47 0)
 			(effects
 				(font
@@ -11732,7 +11732,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "470531000"
+		(property "MPN" "X6511WVS-04H-C60D48R1"
 			(at 267.97 77.47 0)
 			(effects
 				(font
@@ -11741,7 +11741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MOLEX"
+		(property "Manufacturer" "XKB Connection"
 			(at 267.97 77.47 0)
 			(effects
 				(font
@@ -12823,7 +12823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 238.76 66.04 0)
 			(effects
 				(font
@@ -12850,7 +12850,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C240840"
+		(property "LCSC" "C780062"
 			(at 238.76 66.04 0)
 			(effects
 				(font
@@ -12859,7 +12859,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "470531000"
+		(property "MPN" "X6511WVS-04H-C60D48R1"
 			(at 238.76 66.04 0)
 			(effects
 				(font
@@ -12868,7 +12868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MOLEX"
+		(property "Manufacturer" "XKB Connection"
 			(at 238.76 66.04 0)
 			(effects
 				(font
@@ -14660,7 +14660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 238.76 77.47 0)
 			(effects
 				(font
@@ -14687,7 +14687,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C240840"
+		(property "LCSC" "C780062"
 			(at 238.76 77.47 0)
 			(effects
 				(font
@@ -14696,7 +14696,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "470531000"
+		(property "MPN" "X6511WVS-04H-C60D48R1"
 			(at 238.76 77.47 0)
 			(effects
 				(font
@@ -14705,7 +14705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MOLEX"
+		(property "Manufacturer" "XKB Connection"
 			(at 238.76 77.47 0)
 			(effects
 				(font
@@ -14763,7 +14763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 209.55 66.04 0)
 			(effects
 				(font
@@ -14790,7 +14790,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C240840"
+		(property "LCSC" "C780062"
 			(at 209.55 66.04 0)
 			(effects
 				(font
@@ -14799,7 +14799,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "470531000"
+		(property "MPN" "X6511WVS-04H-C60D48R1"
 			(at 209.55 66.04 0)
 			(effects
 				(font
@@ -14808,7 +14808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MOLEX"
+		(property "Manufacturer" "XKB Connection"
 			(at 209.55 66.04 0)
 			(effects
 				(font
@@ -15643,7 +15643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 267.97 66.04 0)
 			(effects
 				(font
@@ -15670,7 +15670,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C240840"
+		(property "LCSC" "C780062"
 			(at 267.97 66.04 0)
 			(effects
 				(font
@@ -15679,7 +15679,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "470531000"
+		(property "MPN" "X6511WVS-04H-C60D48R1"
 			(at 267.97 66.04 0)
 			(effects
 				(font
@@ -15688,7 +15688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MOLEX"
+		(property "Manufacturer" "XKB Connection"
 			(at 267.97 66.04 0)
 			(effects
 				(font
@@ -15911,7 +15911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 180.34 66.04 0)
 			(effects
 				(font
@@ -15938,7 +15938,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C240840"
+		(property "LCSC" "C780062"
 			(at 180.34 66.04 0)
 			(effects
 				(font
@@ -15947,7 +15947,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "470531000"
+		(property "MPN" "X6511WVS-04H-C60D48R1"
 			(at 180.34 66.04 0)
 			(effects
 				(font
@@ -15956,7 +15956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MOLEX"
+		(property "Manufacturer" "XKB Connection"
 			(at 180.34 66.04 0)
 			(effects
 				(font
@@ -16543,7 +16543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 209.55 77.47 0)
 			(effects
 				(font
@@ -16570,7 +16570,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C240840"
+		(property "LCSC" "C780062"
 			(at 209.55 77.47 0)
 			(effects
 				(font
@@ -16579,7 +16579,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "470531000"
+		(property "MPN" "X6511WVS-04H-C60D48R1"
 			(at 209.55 77.47 0)
 			(effects
 				(font
@@ -16588,7 +16588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MOLEX"
+		(property "Manufacturer" "XKB Connection"
 			(at 209.55 77.47 0)
 			(effects
 				(font
@@ -17274,7 +17274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 267.97 88.9 0)
 			(effects
 				(font
@@ -17301,7 +17301,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C240840"
+		(property "LCSC" "C780062"
 			(at 267.97 88.9 0)
 			(effects
 				(font
@@ -17310,7 +17310,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "470531000"
+		(property "MPN" "X6511WVS-04H-C60D48R1"
 			(at 267.97 88.9 0)
 			(effects
 				(font
@@ -17319,7 +17319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MOLEX"
+		(property "Manufacturer" "XKB Connection"
 			(at 267.97 88.9 0)
 			(effects
 				(font
@@ -17474,7 +17474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 238.76 100.33 0)
 			(effects
 				(font
@@ -17501,7 +17501,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C240840"
+		(property "LCSC" "C780062"
 			(at 238.76 100.33 0)
 			(effects
 				(font
@@ -17510,7 +17510,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "470531000"
+		(property "MPN" "X6511WVS-04H-C60D48R1"
 			(at 238.76 100.33 0)
 			(effects
 				(font
@@ -17519,7 +17519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MOLEX"
+		(property "Manufacturer" "XKB Connection"
 			(at 238.76 100.33 0)
 			(effects
 				(font
@@ -17644,7 +17644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 180.34 100.33 0)
 			(effects
 				(font
@@ -17671,7 +17671,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C240840"
+		(property "LCSC" "C780062"
 			(at 180.34 100.33 0)
 			(effects
 				(font
@@ -17680,7 +17680,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "470531000"
+		(property "MPN" "X6511WVS-04H-C60D48R1"
 			(at 180.34 100.33 0)
 			(effects
 				(font
@@ -17689,7 +17689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MOLEX"
+		(property "Manufacturer" "XKB Connection"
 			(at 180.34 100.33 0)
 			(effects
 				(font
@@ -19235,7 +19235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 209.55 100.33 0)
 			(effects
 				(font
@@ -19262,7 +19262,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C240840"
+		(property "LCSC" "C780062"
 			(at 209.55 100.33 0)
 			(effects
 				(font
@@ -19271,7 +19271,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "470531000"
+		(property "MPN" "X6511WVS-04H-C60D48R1"
 			(at 209.55 100.33 0)
 			(effects
 				(font
@@ -19280,7 +19280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MOLEX"
+		(property "Manufacturer" "XKB Connection"
 			(at 209.55 100.33 0)
 			(effects
 				(font
@@ -19338,7 +19338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 238.76 88.9 0)
 			(effects
 				(font
@@ -19365,7 +19365,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C240840"
+		(property "LCSC" "C780062"
 			(at 238.76 88.9 0)
 			(effects
 				(font
@@ -19374,7 +19374,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "470531000"
+		(property "MPN" "X6511WVS-04H-C60D48R1"
 			(at 238.76 88.9 0)
 			(effects
 				(font
@@ -19383,7 +19383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MOLEX"
+		(property "Manufacturer" "XKB Connection"
 			(at 238.76 88.9 0)
 			(effects
 				(font
@@ -22135,7 +22135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 180.34 77.47 0)
 			(effects
 				(font
@@ -22162,7 +22162,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C240840"
+		(property "LCSC" "C780062"
 			(at 180.34 77.47 0)
 			(effects
 				(font
@@ -22171,7 +22171,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "470531000"
+		(property "MPN" "X6511WVS-04H-C60D48R1"
 			(at 180.34 77.47 0)
 			(effects
 				(font
@@ -22180,7 +22180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MOLEX"
+		(property "Manufacturer" "XKB Connection"
 			(at 180.34 77.47 0)
 			(effects
 				(font
