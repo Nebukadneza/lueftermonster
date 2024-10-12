@@ -8474,7 +8474,7 @@
 		(uuid "153d79b5-50d7-4bcf-9225-d5e31e091db0")
 	)
 	(label "TACH1"
-		(at 62.23 123.19 0)
+		(at 62.23 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8551,7 +8551,7 @@
 		(uuid "2d841049-4a4f-4859-b575-a7dc2126b3e9")
 	)
 	(label "TACH5"
-		(at 62.23 113.03 0)
+		(at 62.23 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8672,7 +8672,7 @@
 		(uuid "4517d959-1845-426e-b5e1-153005a5dcdc")
 	)
 	(label "TACH3"
-		(at 62.23 118.11 0)
+		(at 62.23 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8705,7 +8705,7 @@
 		(uuid "4b91ea06-09cb-4b4e-81d9-133bb2bde2c6")
 	)
 	(label "TACH15"
-		(at 62.23 102.87 0)
+		(at 62.23 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8760,7 +8760,7 @@
 		(uuid "558057ea-e324-4f97-81c3-6f5950c3fad7")
 	)
 	(label "TACH7"
-		(at 62.23 107.95 0)
+		(at 62.23 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8881,7 +8881,7 @@
 		(uuid "8121200b-7fb8-4882-94e7-9ab90abfb013")
 	)
 	(label "TACH14"
-		(at 62.23 130.81 0)
+		(at 62.23 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8980,7 +8980,7 @@
 		(uuid "9cac05e4-3620-4ced-a24f-2712b4284b17")
 	)
 	(label "TACH6"
-		(at 62.23 110.49 0)
+		(at 62.23 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9002,7 +9002,7 @@
 		(uuid "a31ead24-b363-4594-b586-3ad09494ed3a")
 	)
 	(label "TACH4"
-		(at 62.23 115.57 0)
+		(at 62.23 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9024,7 +9024,7 @@
 		(uuid "a7f74916-1569-4a67-b1a8-6c583e671f9d")
 	)
 	(label "W1"
-		(at 62.23 92.71 0)
+		(at 62.23 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9046,7 +9046,7 @@
 		(uuid "af3328da-9310-4a43-84bc-222609fec46b")
 	)
 	(label "PWM"
-		(at 62.23 100.33 0)
+		(at 62.23 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9057,7 +9057,7 @@
 		(uuid "b1ea3254-9337-430d-a4e4-3c3edbd3791d")
 	)
 	(label "TACH2"
-		(at 62.23 120.65 0)
+		(at 62.23 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9134,7 +9134,7 @@
 		(uuid "c644e269-c418-4f2d-a7d6-83a630c8d263")
 	)
 	(label "TACH11"
-		(at 62.23 135.89 0)
+		(at 62.23 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9233,7 +9233,7 @@
 		(uuid "dbd5dcb6-4be3-4bf8-bd4e-7457e663c95b")
 	)
 	(label "TACH12"
-		(at 62.23 125.73 0)
+		(at 62.23 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9374,7 +9374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0178691d-3754-4257-975c-2a983499c5d7")
-		(property "Reference" "C?"
+		(property "Reference" "C4"
 			(at 23.0759 85.1541 0)
 			(effects
 				(font
@@ -9455,7 +9455,7 @@
 		(instances
 			(project "lueftermonster"
 				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
-					(reference "C?")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9565,7 +9565,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03a57998-d302-42e1-b6d1-7b3e0bd96319")
-		(property "Reference" "R?"
+		(property "Reference" "R33"
 			(at 23.9014 76.2578 0)
 			(effects
 				(font
@@ -9646,7 +9646,7 @@
 		(instances
 			(project "lueftermonster"
 				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
-					(reference "R?")
+					(reference "R33")
 					(unit 1)
 				)
 			)
