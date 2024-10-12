@@ -1540,6 +1540,177 @@
 				)
 			)
 		)
+		(symbol "Device:LED_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:L_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -4637,6 +4808,12 @@
 		(uuid "93014851-dca7-4a84-8ccf-01cc3ce9eb49")
 	)
 	(junction
+		(at 106.68 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "932ff116-b7c6-4439-a533-9f25683492f5")
+	)
+	(junction
 		(at 224.79 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4851,10 +5028,6 @@
 		(uuid "929e2c1d-368e-41cc-826f-8deed8831eae")
 	)
 	(no_connect
-		(at 53.34 92.71)
-		(uuid "b4628d19-238b-422f-81e2-c4546f049487")
-	)
-	(no_connect
 		(at 53.34 105.41)
 		(uuid "b9e0eb6b-cc01-48b1-8a15-33d32442f5ed")
 	)
@@ -5059,6 +5232,16 @@
 			(type default)
 		)
 		(uuid "0c6847e7-6afe-4495-88d0-1a18b8f1e656")
+	)
+	(wire
+		(pts
+			(xy 96.52 71.12) (xy 96.52 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c688ff1-f6ec-48f8-bb4a-231c33111f3a")
 	)
 	(wire
 		(pts
@@ -5509,6 +5692,16 @@
 			(type default)
 		)
 		(uuid "3127527f-7731-478f-8e55-0efa9e5bcd45")
+	)
+	(wire
+		(pts
+			(xy 53.34 92.71) (xy 54.61 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "318cd18f-28e0-4d34-88cd-b34866aa524a")
 	)
 	(wire
 		(pts
@@ -6232,6 +6425,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 180.34) (xy 67.31 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6537e6c9-24d4-4e23-ba27-563e40260777")
+	)
+	(wire
+		(pts
 			(xy 116.84 80.01) (xy 106.68 80.01)
 		)
 		(stroke
@@ -6439,6 +6642,16 @@
 			(type default)
 		)
 		(uuid "7311ec54-0e3e-4189-bc00-9a715434016a")
+	)
+	(wire
+		(pts
+			(xy 67.31 173.99) (xy 67.31 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7455179b-1873-4988-9589-db01c7379e54")
 	)
 	(wire
 		(pts
@@ -6872,6 +7085,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 167.64) (xy 67.31 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9740da41-62ca-473f-9215-4deb3aa8933c")
+	)
+	(wire
+		(pts
 			(xy 167.64 125.73) (xy 172.72 125.73)
 		)
 		(stroke
@@ -6949,6 +7172,16 @@
 			(type default)
 		)
 		(uuid "9b4a7ad3-65cb-4a97-ba1f-467a6f782969")
+	)
+	(wire
+		(pts
+			(xy 67.31 167.64) (xy 67.31 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b614e4d-4915-449a-baa3-547ccb133604")
 	)
 	(wire
 		(pts
@@ -7179,6 +7412,16 @@
 			(type default)
 		)
 		(uuid "b3485341-7950-4191-a8fe-e01f8bee40cd")
+	)
+	(wire
+		(pts
+			(xy 106.68 80.01) (xy 96.52 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3d9b6d3-5a83-4565-a755-b2dc0c9e6306")
 	)
 	(wire
 		(pts
@@ -8082,6 +8325,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 80.01) (xy 96.52 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f846d623-f3af-4066-82b1-43463ea8d890")
+	)
+	(wire
+		(pts
 			(xy 220.98 36.83) (xy 220.98 39.37)
 		)
 		(stroke
@@ -8129,25 +8382,6 @@
 			(type default)
 		)
 		(uuid "ffb176b1-f872-4f6e-9590-2a4e81cffe18")
-	)
-	(text_box "TODO:\n - check C5 inrush vs fuse"
-		(exclude_from_sim no)
-		(at 229.87 16.51 0)
-		(size 50.8 39.37)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "9210e1ee-85b3-4725-abea-f97f9f001f6d")
 	)
 	(text "12V, 2.5A max"
 		(exclude_from_sim no)
@@ -8423,6 +8657,17 @@
 		)
 		(uuid "4b91ea06-09cb-4b4e-81d9-133bb2bde2c6")
 	)
+	(label "LED"
+		(at 66.04 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4e3f3a69-bbf7-4f17-bb58-839e480e2f13")
+	)
 	(label "TACH15"
 		(at 54.61 140.97 0)
 		(fields_autoplaced yes)
@@ -8631,6 +8876,17 @@
 			(justify right bottom)
 		)
 		(uuid "869a0383-5264-4a03-8f09-2f7fa6cc5fb2")
+	)
+	(label "LED"
+		(at 54.61 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "873a3e12-4ebe-44fd-9622-8e274c8bfaf5")
 	)
 	(label "PWM_G4"
 		(at 261.62 93.98 180)
@@ -11103,6 +11359,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 96.52 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "305caf65-78be-40c4-a5b7-cc0e9d9fe101")
+		(property "Reference" "#PWR054"
+			(at 96.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 96.52 66.9869 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 96.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab7b78df-bd2d-48a2-a0c0-5bf97e558132")
+		)
+		(instances
+			(project "lueftermonster"
+				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 175.26 125.73 270)
 		(unit 1)
@@ -11539,7 +11861,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "38f8a20d-9a86-4e5d-b594-41614f995691")
 		(property "Reference" "C4"
@@ -11579,6 +11901,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 63.5 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 63.5 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 63.5 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 63.5 64.77 0)
 			(effects
 				(font
@@ -12223,6 +12572,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 124.46 135.89 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f9fcc2c-e025-4c00-8865-d8fda43b17b1")
+		(property "Reference" "R31"
+			(at 122.9614 134.6778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 122.9614 137.1021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 124.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 124.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 124.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 124.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "323f951c-c518-4a8f-9263-dd276afd5647")
+		)
+		(pin "2"
+			(uuid "145129fc-3ab1-4f2c-a30c-d470891d057a")
+		)
+		(instances
+			(project "lueftermonster"
+				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 116.84 71.12 0)
 		(unit 1)
@@ -12419,6 +12865,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL21B104KCFNNNE"
+			(at 80.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 80.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "985fee26-db10-47ed-a950-986adb6b5df0")
 		)
@@ -12488,7 +12952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "0805B105K500NT"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 209.55 148.59 0)
 			(effects
 				(font
@@ -12497,7 +12961,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
+		(property "MPN" "0805B105K500NT"
 			(at 209.55 148.59 0)
 			(effects
 				(font
@@ -13904,7 +14368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "0805B105K500NT"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 224.79 148.59 0)
 			(effects
 				(font
@@ -13913,7 +14377,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
+		(property "MPN" "0805B105K500NT"
 			(at 224.79 148.59 0)
 			(effects
 				(font
@@ -14155,6 +14619,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 96.52 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "619a3b3a-ac9e-4b2b-87ad-0268656c88bc")
+		(property "Reference" "R13"
+			(at 98.0186 73.7178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 98.0186 76.1421 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 96.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 96.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 96.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 96.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 96.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5db62400-d3a4-4929-8dbf-51185b1e894e")
+		)
+		(pin "2"
+			(uuid "2d85403e-2fcb-45b3-9d62-541eb39e8a1e")
+		)
+		(instances
+			(project "lueftermonster"
+				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 227.33 86.36 270)
 		(unit 1)
@@ -14216,103 +14777,6 @@
 			(project "lueftermonster"
 				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 124.46 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "63c3a8b7-30c3-441b-92be-717ad0e9109a")
-		(property "Reference" "R14"
-			(at 122.9614 134.6778 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 122.9614 137.1021 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 124.46 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C11702"
-			(at 124.46 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF1001TCE"
-			(at 124.46 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 124.46 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14194049-5cdc-4b30-9052-56e395ab3ffb")
-		)
-		(pin "2"
-			(uuid "643c07b0-cd08-4a5b-881a-a4d62d3faf1b")
-		)
-		(instances
-			(project "lueftermonster"
-				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -14466,7 +14930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "0805B105K500NT"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 255.27 125.73 0)
 			(effects
 				(font
@@ -14475,7 +14939,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
+		(property "MPN" "0805B105K500NT"
 			(at 255.27 125.73 0)
 			(effects
 				(font
@@ -14530,103 +14994,6 @@
 			(project "lueftermonster"
 				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
 					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 124.46 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "6b9b06b9-d95b-4f99-aa69-6af89601a927")
-		(property "Reference" "R12"
-			(at 122.9614 90.2278 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 122.9614 92.6521 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 124.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C11702"
-			(at 124.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF1001TCE"
-			(at 124.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 124.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e522c43f-e53f-44d9-b656-98329483be0b")
-		)
-		(pin "2"
-			(uuid "715f97b8-4668-442c-a8d6-ba245b7dbdf3")
-		)
-		(instances
-			(project "lueftermonster"
-				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -14957,7 +15324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "0805B105K500NT"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 232.41 148.59 0)
 			(effects
 				(font
@@ -14966,7 +15333,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
+		(property "MPN" "0805B105K500NT"
 			(at 232.41 148.59 0)
 			(effects
 				(font
@@ -15070,6 +15437,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 143.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 143.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B103KB5NNNC"
+			(at 143.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 143.51 27.94 0)
 			(effects
 				(font
@@ -15247,6 +15641,130 @@
 			(project "lueftermonster"
 				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 67.31 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "710c0479-07ca-4ca5-9e80-38b5e2064d84")
+		(property "Reference" "D3"
+			(at 69.088 176.5243 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "red"
+			(at 69.088 178.9486 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 67.31 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf"
+			(at 67.31 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 67.31 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 67.31 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KT-0603R"
+			(at 67.31 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 67.31 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Spec" ""
+			(at 67.31 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 67.31 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 67.31 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22c9ec03-6c39-4177-8121-2bd6b6e4dfac")
+		)
+		(pin "2"
+			(uuid "7613d669-8639-49e8-89f6-8f768176feec")
+		)
+		(instances
+			(project ""
+				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -15469,6 +15987,24 @@
 			)
 		)
 		(property "LCSC" "C28233"
+			(at 67.31 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21B104KCFNNNE"
+			(at 67.31 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 67.31 35.56 0)
 			(effects
 				(font
@@ -16040,7 +16576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "0805B105K500NT"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 232.41 125.73 0)
 			(effects
 				(font
@@ -16049,7 +16585,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
+		(property "MPN" "0805B105K500NT"
 			(at 232.41 125.73 0)
 			(effects
 				(font
@@ -16257,7 +16793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "0805B105K500NT"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 217.17 125.73 0)
 			(effects
 				(font
@@ -16266,7 +16802,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
+		(property "MPN" "0805B105K500NT"
 			(at 217.17 125.73 0)
 			(effects
 				(font
@@ -16446,7 +16982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "0805B105K500NT"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 270.51 125.73 0)
 			(effects
 				(font
@@ -16455,7 +16991,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
+		(property "MPN" "0805B105K500NT"
 			(at 270.51 125.73 0)
 			(effects
 				(font
@@ -16613,6 +17149,103 @@
 			(project "lueftermonster"
 				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 124.46 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "845460d7-fc55-4bbe-9354-5fcab94ab548")
+		(property "Reference" "R14"
+			(at 122.9614 90.2278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 122.9614 92.6521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 124.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 124.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 124.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 124.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a015e05-808e-4d30-8a02-097d2ca0fac5")
+		)
+		(pin "2"
+			(uuid "9813370c-aee9-4926-acc7-4ac1ea9310a4")
+		)
+		(instances
+			(project "lueftermonster"
+				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -17344,103 +17977,6 @@
 			(project "lueftermonster"
 				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
 					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 124.46 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "95be6c64-d536-4ed6-b430-a46068aebcf9")
-		(property "Reference" "R15"
-			(at 122.9614 157.5378 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 122.9614 159.9621 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 124.46 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C11702"
-			(at 124.46 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF1001TCE"
-			(at 124.46 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 124.46 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f45bb68-b687-4318-b6ca-16b740b92542")
-		)
-		(pin "2"
-			(uuid "76cf5292-b354-40d9-9266-d24dddcbee66")
-		)
-		(instances
-			(project "lueftermonster"
-				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -18736,6 +19272,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 124.46 113.03 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b39f89f5-b1b3-4d12-99e5-16bcf810ead5")
+		(property "Reference" "R15"
+			(at 122.9614 111.8178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 122.9614 114.2421 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 124.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 124.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 124.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 124.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2c27178-6214-4caa-a603-64cf686d02a8")
+		)
+		(pin "2"
+			(uuid "5b0d3638-8451-4908-93ec-3ae782625a2b")
+		)
+		(instances
+			(project "lueftermonster"
+				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 240.03 125.73 0)
 		(unit 1)
@@ -18789,7 +19422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "0805B105K500NT"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 240.03 125.73 0)
 			(effects
 				(font
@@ -18798,7 +19431,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
+		(property "MPN" "0805B105K500NT"
 			(at 240.03 125.73 0)
 			(effects
 				(font
@@ -19073,7 +19706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "0805B105K500NT"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 217.17 148.59 0)
 			(effects
 				(font
@@ -19082,7 +19715,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
+		(property "MPN" "0805B105K500NT"
 			(at 217.17 148.59 0)
 			(effects
 				(font
@@ -19467,7 +20100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "0805B105K500NT"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 201.93 125.73 0)
 			(effects
 				(font
@@ -19476,7 +20109,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
+		(property "MPN" "0805B105K500NT"
 			(at 201.93 125.73 0)
 			(effects
 				(font
@@ -19590,7 +20223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "0805B105K500NT"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 262.89 125.73 0)
 			(effects
 				(font
@@ -19599,7 +20232,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
+		(property "MPN" "0805B105K500NT"
 			(at 262.89 125.73 0)
 			(effects
 				(font
@@ -19712,7 +20345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "XKB Connection"
 			(at 34.29 172.72 0)
 			(effects
 				(font
@@ -19721,7 +20354,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "X6511WVS-06H-C60D48R2"
 			(at 34.29 172.72 0)
 			(effects
 				(font
@@ -19749,6 +20382,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 34.29 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2883763"
 			(at 34.29 172.72 0)
 			(effects
 				(font
@@ -19998,7 +20640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "0805B105K500NT"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 224.79 125.73 0)
 			(effects
 				(font
@@ -20007,7 +20649,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
+		(property "MPN" "0805B105K500NT"
 			(at 224.79 125.73 0)
 			(effects
 				(font
@@ -20188,7 +20830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "0805B105K500NT"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 209.55 125.73 0)
 			(effects
 				(font
@@ -20197,7 +20839,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
+		(property "MPN" "0805B105K500NT"
 			(at 209.55 125.73 0)
 			(effects
 				(font
@@ -20709,6 +21351,103 @@
 			(project "lueftermonster"
 				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 124.46 158.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d90aa756-3d0f-43e3-9eb5-a2a3ff08769c")
+		(property "Reference" "R32"
+			(at 122.9614 157.5378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 122.9614 159.9621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 124.46 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 124.46 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 124.46 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 124.46 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc658082-ef91-42ca-97cc-d357e31bc678")
+		)
+		(pin "2"
+			(uuid "b04df245-2842-4be3-989b-544fe3e638f1")
+		)
+		(instances
+			(project "lueftermonster"
+				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -21249,103 +21988,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 124.46 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "e07da740-a28d-4c1a-812b-b676cfa96b2e")
-		(property "Reference" "R13"
-			(at 122.9614 111.8178 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 122.9614 114.2421 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 124.46 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C11702"
-			(at 124.46 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF1001TCE"
-			(at 124.46 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 124.46 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af0c3a0b-5fcf-494f-91ee-9f749cf6210a")
-		)
-		(pin "2"
-			(uuid "a9c6b975-b6f6-4c98-9d60-3fffb76bf7d4")
-		)
-		(instances
-			(project "lueftermonster"
-				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 168.91 97.79 270)
 		(unit 1)
@@ -21466,7 +22108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "0805B105K500NT"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 201.93 148.59 0)
 			(effects
 				(font
@@ -21475,7 +22117,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
+		(property "MPN" "0805B105K500NT"
 			(at 201.93 148.59 0)
 			(effects
 				(font
@@ -22038,7 +22680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "0805B105K500NT"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 247.65 125.73 0)
 			(effects
 				(font
@@ -22047,7 +22689,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FH (Guangdong Fenghua Advanced Tech)"
+		(property "MPN" "0805B105K500NT"
 			(at 247.65 125.73 0)
 			(effects
 				(font
@@ -22628,6 +23270,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 67.31 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4c5ccb5-1da1-4274-a946-45eb4b75ec99")
+		(property "Reference" "R12"
+			(at 68.8086 170.2378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 68.8086 172.6621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 67.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 67.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 67.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 67.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e29c1274-b653-4bbd-bfb8-99f224f3b0dd")
+		)
+		(pin "2"
+			(uuid "e1ca18d9-a3c0-4b4d-8abe-c673f9368537")
+		)
+		(instances
+			(project "lueftermonster"
+				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RF_Module:ESP32-WROOM-32E")
 		(at 38.1 113.03 0)
 		(unit 1)
@@ -22924,6 +23662,71 @@
 			(project "lueftermonster"
 				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hw-rescue:GND-power")
+		(at 67.31 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff08a3c5-318f-4815-a326-26a731cd4e3c")
+		(property "Reference" "#PWR055"
+			(at 67.31 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.437 186.0042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "224d854f-1e57-4472-8408-a9c3d0bc96d5")
+		)
+		(instances
+			(project "lueftermonster"
+				(path "/ae70ba22-ffaf-465a-806a-dbca86e4d278"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
