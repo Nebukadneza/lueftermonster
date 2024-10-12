@@ -181,6 +181,8 @@
       ],
       "track_widths": [
         0.0,
+        0.3,
+        1.0,
         2.5
       ],
       "tuning_pattern_settings": {
