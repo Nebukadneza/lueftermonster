@@ -175,16 +175,6 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "179415c1-9c0d-45a0-99ad-4dc2849ee7e8")
-	)
-	(fp_line
-		(start 1.2 5.85)
-		(end 1.2 -5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
 		(uuid "3f8436d4-c4e5-486b-99d2-c3d53e294003")
 	)
 	(fp_line
