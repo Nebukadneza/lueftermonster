@@ -14737,7 +14737,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25086"
+		(property "LCSC" "C102864"
 			(at 99.06 123.19 0)
 			(effects
 				(font
@@ -14746,7 +14746,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF100KTCE"
+		(property "MPN" "RTT021R00FTH"
 			(at 99.06 123.19 0)
 			(effects
 				(font
@@ -14755,7 +14755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "RALEC"
 			(at 99.06 123.19 0)
 			(effects
 				(font
@@ -17837,7 +17837,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25086"
+		(property "LCSC" "C102864"
 			(at 99.06 100.33 0)
 			(effects
 				(font
@@ -17846,7 +17846,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF100KTCE"
+		(property "MPN" "RTT021R00FTH"
 			(at 99.06 100.33 0)
 			(effects
 				(font
@@ -17855,7 +17855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "RALEC"
 			(at 99.06 100.33 0)
 			(effects
 				(font
@@ -23637,7 +23637,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25086"
+		(property "LCSC" "C102864"
 			(at 99.06 146.05 0)
 			(effects
 				(font
@@ -23646,7 +23646,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF100KTCE"
+		(property "MPN" "RTT021R00FTH"
 			(at 99.06 146.05 0)
 			(effects
 				(font
@@ -23655,7 +23655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "RALEC"
 			(at 99.06 146.05 0)
 			(effects
 				(font
