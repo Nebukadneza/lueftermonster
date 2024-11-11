@@ -1,5 +1,7 @@
 # Lüftermonster
 
+![Photo of the Lüftermonster PCB](assets/pcb-photo.jpg?raw=true "Title")
+
 ## TL;DR:
 You want to control up to 15 PC Fans by PWM, read the RPM of every single one, attach up to 4 DS18b20 Temperature Probes, and have all this exposed by API, Web-interface or into Home-Assistant? This is for you!
 
