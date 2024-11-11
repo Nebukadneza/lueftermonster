@@ -1,6 +1,6 @@
 # Lüftermonster
 
-![Photo of the Lüftermonster PCB](assets/pcb-photo.jpg?raw=true "Title")
+![Photo of the Lüftermonster PCB](assets/pcb-photo.jpg?raw=true "The Lüftermonster PCB")
 
 ## TL;DR:
 You want to control up to 15 PC Fans by PWM, read the RPM of every single one, attach up to 4 DS18b20 Temperature Probes, and have all this exposed by API, Web-interface or into Home-Assistant? This is for you!
@@ -59,6 +59,15 @@ After a brief period, you should be able to open `http://<the-name-you-set-in-th
 Now, you can control the fan speed, and check the fans current RPMs. Note: RPM are not updated often, so it make take a while for all of them to display, and for speed changes to become visible. This is intentional since the information is most useful for outage detection, and does not need to be reported often.
 
 To connect to Home-Assistant refer to the [ESPHome documentation](https://esphome.io/guides/getting_started_hassio#connecting-your-device-to-home-assistant)
+
+### Connect a fan
+Since the "proper" PC Fan connectors are not sourcable from JLCPCB, we cheaped out by using standard 2.54mm connection pins. This works, but
+
+_**IS NOT SAFE TO CONNECT IN REVERSE!**_
+
+So you need to pay attention to how you connect your fans. Refer to the silk-screen on the right of Lüftermonster for the pinout of the connectors. With the two "latches" of a standard PC Fan connector, it is correct to connect the fan like this:
+![Close-up of a PC Fan connector on the PCB](assets/fan-connector.jpg?raw=true "CORRECT polarity Connection")
+
 
 ### Connecting DS18b20 Temperature Sensors
 TODO: Section about DS18b20 address finding and such.
