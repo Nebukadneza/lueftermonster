@@ -3,14 +3,12 @@ packages:
     file: wifi.yaml
     vars:
       ap_ssid: lueftermonster
-      ap_pass: "sshh_supersecret"
       wifi_ssid: juizu6
-      wifi_pass: "ssshh_moresecret"
   device_base: !include
     file: device.yaml
     vars:
       name: "lueftermonster-beta1"
       temp_water_in_address: 0x05dd34620e64ff28
-      temp_water_out_address: 0x05dd34620e64ff28
-      temp_air_in_address: 0x05dd34620e64ff28
-      temp_air_out_address: 0x05dd34620e64ff28
+      temp_water_out_address: 0x0
+      temp_air_in_address: 0x0
+      temp_air_out_address: 0x0

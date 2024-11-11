@@ -1,6 +1,6 @@
 wifi:
-  ssid: "${wifi_ssid}"
-  password: "${wifi_pass}"
+  ssid: !secret wifi_ssid
+  password: !secret wifi_pw
   ap:
     ssid: "${ap_ssid}"
-    password: "${ap_pass}"
+    password: !secret ap_pw
