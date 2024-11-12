@@ -27,8 +27,20 @@ The hardware is designed so that it can be easily and affordably ordered off [JL
 
 
 ## Hardware
-TODO: somethingsomething gerber
-TODO: somethingsomething JLCPCB BOM & CPL Excel files
+### Fabrication
+Gerber files and BOM/CPL data compatible with the JLCPCB assembly service can be found in the `fab` directory. This is a 2-layer PCB compatible with their "Economic" class PCBA service.
+
+### Stuffing options
+
+A few stuffing options are available on the PCB. The corresponding 0R resistors use 0603 sizes (compared to the 0402 size used for everything else) to be more convenient to rework with basic equipment. If you don't have KiCad installed, you can use the [Interactive HTML BOM](fab/ibom.html) to locate the components on the board.
+
+* PWM output voltage levels. Exactly one of the following 0R resistors must be populated.
+  * R10: 5V (default)
+  * R11: 3.3V
+  * R13: Equal to supply voltage (i.e. usually 12V)
+* 1-wire supply: Exactly one of the following 0R resistors must be populated.
+  * R32: 3.3V (default)
+  * R12: 5V
 
 ## Software
 ### Preparation
@@ -61,7 +73,7 @@ Now, you can control the fan speed, and check the fans current RPMs. Note: RPM a
 To connect to Home-Assistant refer to the [ESPHome documentation](https://esphome.io/guides/getting_started_hassio#connecting-your-device-to-home-assistant)
 
 ### Connect a fan
-Since the "proper" PC Fan connectors are not sourcable from JLCPCB, we cheaped out by using standard 2.54mm connection pins. This works, but
+Since the "proper" PC Fan connectors are not cheaply sourcable from JLCPCB (and THT parts incur a hand-soldering fee/delay), we cheaped out by using standard 2.54mm connection pins. This works, but
 
 _**IS NOT SAFE TO CONNECT IN REVERSE!**_
 
