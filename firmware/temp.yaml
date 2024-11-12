@@ -1,0 +1,5 @@
+platform: dallas_temp
+address: ${address}
+name: "${name}"
+id: ${id}
+update_interval: 60s

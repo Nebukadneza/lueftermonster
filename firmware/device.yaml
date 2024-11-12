@@ -1,0 +1,141 @@
+esphome:
+  name: "${name}"
+  on_boot:
+    priority: 700
+    then:
+      - lambda: |-
+          // We manually set up the pins we use in the right order for the "Fan x" silkscreen labels
+          // The manual setup is needed so the GPIOs are initialised in the right state to later be
+          // used with the hardware pulse-counter.
+          ESP_LOGD("on_boot", "Setting up pins for pulse-counter rotation");
+          const gpio_num_t pins[] {
+            ::GPIO_NUM_22, ::GPIO_NUM_21, ::GPIO_NUM_19, ::GPIO_NUM_18, ::GPIO_NUM_17,
+            ::GPIO_NUM_16, ::GPIO_NUM_4, ::GPIO_NUM_34, ::GPIO_NUM_35, ::GPIO_NUM_32,
+            ::GPIO_NUM_14, ::GPIO_NUM_27, ::GPIO_NUM_26, ::GPIO_NUM_25, ::GPIO_NUM_33
+          };
+          for(int i=0; i<15; i++) {
+            ESP_LOGD("on_boot", "... Setting pin %d to gpio %d", i, pins[i]);
+            id(tacho_pins)[i] = new esp32::ESP32InternalGPIOPin();
+            id(tacho_pins)[i]->set_pin(pins[i]);
+            id(tacho_pins)[i]->setup();
+          }
+
+globals:
+  - id: tacho_pins
+    type: 'esp32::ESP32InternalGPIOPin*[15]'
+    restore_value: no
+
+esp32:
+  board: esp32dev
+  flash_size: 8MB
+  framework:
+    type: arduino
+
+logger:
+
+api:
+  password: ""
+
+ota:
+  - platform: esphome
+    password: ""
+
+captive_portal:
+
+web_server:
+  port: 80
+
+one_wire:
+  - platform: gpio
+    pin: GPIO13
+
+output:
+  - platform: ledc
+    pin: GPIO23
+    id: fan_pwm_output
+    inverted: true
+    frequency: 25000Hz
+
+fan:
+  - platform: speed
+    speed_count: 100
+    output: fan_pwm_output
+    id: radiator_fan
+    name: "Radiator Fan"
+    restore_mode: RESTORE_DEFAULT_ON
+
+sensor:
+  - !include { file: temp.yaml, vars: { name: "Temperature Water Inlet", id: "temp_water_in", address: "${temp_water_in_address}" } }
+  - !include { file: temp.yaml, vars: { name: "Temperature Water Outlet", id: "temp_water_out", address: "${temp_water_out_address}" } }
+  - !include { file: temp.yaml, vars: { name: "Temperature Air Inlet", id: "temp_air_in", address: "${temp_air_in_address}" } }
+  - !include { file: temp.yaml, vars: { name: "Temperature Air Outlet", id: "temp_air_out", address: "${temp_air_out_address}" } }
+
+  - !include { file: tacho_fan.yaml, vars: { fan_number: 1 } }
+  - !include { file: tacho_fan.yaml, vars: { fan_number: 2 } }
+  - !include { file: tacho_fan.yaml, vars: { fan_number: 3 } }
+  - !include { file: tacho_fan.yaml, vars: { fan_number: 4 } }
+  - !include { file: tacho_fan.yaml, vars: { fan_number: 5 } }
+  - !include { file: tacho_fan.yaml, vars: { fan_number: 6 } }
+  - !include { file: tacho_fan.yaml, vars: { fan_number: 7 } }
+  - !include { file: tacho_fan.yaml, vars: { fan_number: 8 } }
+  - !include { file: tacho_fan.yaml, vars: { fan_number: 9 } }
+  - !include { file: tacho_fan.yaml, vars: { fan_number: 10 } }
+  - !include { file: tacho_fan.yaml, vars: { fan_number: 11 } }
+  - !include { file: tacho_fan.yaml, vars: { fan_number: 12 } }
+  - !include { file: tacho_fan.yaml, vars: { fan_number: 13 } }
+  - !include { file: tacho_fan.yaml, vars: { fan_number: 14 } }
+  - !include { file: tacho_fan.yaml, vars: { fan_number: 15 } }
+
+  # This is the hardware pulsecounter and merely used internally. With a dirty hack, we
+  # iterate through the tacho signals for all fans. In doing so, we publish the state
+  # from this hardware pulsecounter to the respective "dummy" sensors for the actual
+  # tachos.
+  - platform: pulse_counter
+    pin: GPIO22
+    name: "Tacho Fan (internal)"
+    id: tacho_pulsecounter
+    update_interval: 30s
+    use_pcnt: true
+    unit_of_measurement: "RPM"
+    accuracy_decimals: 0
+    internal: true
+    filters:
+      - round_to_multiple_of: 10
+    on_value:
+      then:
+        - lambda: |-
+            static int executions = 0;
+
+            // This is ugly since there is no way of "templating" id-resolution.
+            switch (executions) {
+              case 0: id(fan_tacho_1).publish_state(id(tacho_pulsecounter).state); break;
+              case 1: id(fan_tacho_2).publish_state(id(tacho_pulsecounter).state); break;
+              case 2: id(fan_tacho_3).publish_state(id(tacho_pulsecounter).state); break;
+              case 3: id(fan_tacho_4).publish_state(id(tacho_pulsecounter).state); break;
+              case 4: id(fan_tacho_5).publish_state(id(tacho_pulsecounter).state); break;
+              case 5: id(fan_tacho_6).publish_state(id(tacho_pulsecounter).state); break;
+              case 6: id(fan_tacho_7).publish_state(id(tacho_pulsecounter).state); break;
+              case 7: id(fan_tacho_8).publish_state(id(tacho_pulsecounter).state); break;
+              case 8: id(fan_tacho_9).publish_state(id(tacho_pulsecounter).state); break;
+              case 9: id(fan_tacho_10).publish_state(id(tacho_pulsecounter).state); break;
+              case 10: id(fan_tacho_11).publish_state(id(tacho_pulsecounter).state); break;
+              case 11: id(fan_tacho_12).publish_state(id(tacho_pulsecounter).state); break;
+              case 12: id(fan_tacho_13).publish_state(id(tacho_pulsecounter).state); break;
+              case 13: id(fan_tacho_14).publish_state(id(tacho_pulsecounter).state); break;
+              case 14: id(fan_tacho_15).publish_state(id(tacho_pulsecounter).state); break;
+              default: ESP_LOGD("tacho_pulsecounter_rotater", "this should not happen");
+            }
+
+            executions += 1;
+            if(executions == 15) {
+              executions = 0;
+            }
+
+            // This is an extremely ugly hack. The esphome pulse_counter component sets up the hardware
+            // pulse counter. The resulting data-structures for the pcnt_unit and pcnt_channel are
+            // internal and cannot be accessed by our lambda. Thus, we just assume that esphome will always
+            // allocate pulsecounter unit 0 with channel 0 -- which it does, thankfully!
+            // Should this ever change, or should there be an instability in allocation on the esphome side,
+            // the only alternative will be to fork the pulse_counter component and expose the internal
+            // data-structures
+            pcnt_set_pin((pcnt_unit_t)0, (pcnt_channel_t)0, id(tacho_pins)[executions]->get_pin(), 0);

@@ -1,0 +1,7 @@
+platform: template
+name: "Tacho Fan ${fan_number}"
+id: fan_tacho_${fan_number}
+state_class: measurement
+unit_of_measurement: "RPM"
+accuracy_decimals: 0
+update_interval: never
